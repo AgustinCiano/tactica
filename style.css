@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fondo{
+    position: absolute;
+    width: 428px;
+    height: 926px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #24BECA 0%, #3B74C0 100%);
+}
+
+.fondoLogin{
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    height: 624px;
+    left: 13px;
+    top: 161px;
+    background: rgba(5, 5, 5, 0.24);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logoUno{
+    
+    width: 150px;
+    height: 150px;
+    left: 139px;
+    top: 199px;
+    filter: drop-shadow(0px 0px 33px #E91218);
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    color: white;
+    margin-top: 10%;
+}
+
+
+.textBox{
+    width: 378px;
+    height: 52px;
+    left: 26px;
+    top: 422px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.ingresarButton{
+    
+    width: 378px;
+    height: 60px;
+    left: 25px;
+    top: 639px;
+    color: white;
+    font-size: xx-large;
+    margin-top: 10%;
+    
+    background: #20AAED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.recordarme{
+    margin-top: 5%;
+    font-size: large;
+}
+
+.boton{
+    width: 40px;
+    height: 40px;
+}
+
+.fondoSection{
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    height: 624px;
+    left: 13px;
+    top: 161px;
+    background: rgba(5, 5, 5, 0.24);
+    color: white;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; */
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pendCompBox{
+    margin: 5% 0 5% 5%;
+    width: 144px;
+    height: 61px;
+    left: 22px;
+    top: 201px;
+    background: #20AAED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.pend{    
+    margin-left: 10%;    
+}
+
+.comp{
+    margin-left: 10%;
+}
